@@ -14,16 +14,13 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     scroll-behavior: smooth;
     transition: 0.3s;
-}
-
-body {
-    
 }
 
 /* Shared All Styles */
@@ -83,10 +80,11 @@ backInDown animation {
 }
     */
 
-.nav-section {
+header {
     max-width: 100%;
     height: 80px;
     display: flex;
+    margin: auto;
     box-shadow: 0 0 15px 5px rgb(218, 216, 216);
     position: sticky;
     z-index: 999;
@@ -130,13 +128,14 @@ backInDown animation {
 
 .navbar ul li {
     display: list-item;
+    list-style: none;
     text-align: -webkit-match-parent;
     unicode-bidi: isolate;
 }
 
 .navbar ul a {
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     color: #181818;
     text-shadow: 0px 1px 1px #808080;
@@ -145,6 +144,7 @@ backInDown animation {
 
 .navbar ul li a:hover {
     color: #d09b85;
+    border-bottom: 2px solid #C6866B !important;
 }
 
 .search {
@@ -245,7 +245,111 @@ backInDown animation {
     margin-top: 70px;
 }
 
+/* Section-Two Styles */
+.section-two {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5f7ff;
+    border-radius: 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 80px 0px;
+    margin: 100px auto;
+}
 
+.section-two .text-box-btn button {
+    padding: 5px 20px;
+    border: 1.5px solid #C6866B;
+    border-radius: 25px;
+    background-color: transparent !important;
+}
+
+.section-two .text-box-btn button a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #C6866B;
+    line-height: 1.2;
+}
+
+.section-two .container {
+    max-width: 25%;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+    border: 2px solid #ededed;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    transition: 0.6s;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.section-two .container:hover {
+    background-color: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+}
+
+.section-two .cont-txt-box {
+    box-shadow: none;
+    background-color: transparent;
+    text-align: justify;
+    align-items: start !important;
+    list-style: 1.4;
+    border: none;
+}
+
+.section-two .cont-txt-box:hover {
+    background-color: unset;
+    border: none;
+    border-radius: 10px;
+}
+
+.section-two .small-txt {
+    font-size: 15px !important;
+    font-weight: 600;
+}
+
+.section-two .cont-txt-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #C6866B;
+    padding-bottom: 10px;
+    margin-left: 7px;
+}
+
+.section-two span {
+    background: #C6866B;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 230px;
+    margin-left: -22px;
+    position: absolute;
+    padding: 5px 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.section-two p {
+    font-size: 14px;
+    color: #565353 !important;
+    padding: 0px 10px;
+}
+
+
+.container img {
+    width: 100%;
+    transition: all .25s ease !important;
+}
+
+.section-two .container h2 {
+    font-size: 1.5rem;
+    color: #C6866B;
+}
 
 
 
