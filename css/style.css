@@ -355,7 +355,7 @@ header {
 }
 
 .heading-arrow {
-    
+    max-width: 1440px;
     display: flex;
     justify-content: space-between;
 }
@@ -366,11 +366,6 @@ header {
     color: #181818;
     text-shadow: 0px 1px 1px #808080;
     margin-bottom: 50px;
-    margin-left: -150px;
-}
-
-.heading-arrows {
-    margin-right: -150px;
 }
 
 .section-three-inner {
@@ -444,7 +439,7 @@ header {
 }
 
 /* Section Five Styles */
-.heading-arrow {
+.section-five-heading-arrow {
     width: 1140px;
     display: flex;
     justify-content: space-between;
